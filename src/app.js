@@ -113,6 +113,7 @@ ajax(
                     url: 'https://bible.youversionapi.com/3.1/verse.json?id=111&reference=' + usfms[i],
                     type: 'json',
                     headers: {
+                        'Origin': 'windows-8',
                         'X-YouVersion-Client': 'youversion',
                         'X-YouVersion-App-Platform': 'web',
                         'X-YouVersion-App-Version': '1'
